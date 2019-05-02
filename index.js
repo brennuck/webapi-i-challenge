@@ -4,6 +4,8 @@ const db = require("./data/db.js");
 const server = express();
 server.use(express.json());
 
+const port = process.env.PORT || 8000
+
 server.get("/", (req, res) => {
   res.send("Hello World");
 });
