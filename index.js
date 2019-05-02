@@ -21,7 +21,7 @@ server.post("/api/users", (req, res) => {
         .status(500)
         .json({
           error: err,
-          message: "The user with specified could not be retrieved"
+          message: "The user with specified could not bee retrieved"
         });
     });
 });
